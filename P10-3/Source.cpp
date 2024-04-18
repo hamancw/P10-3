@@ -33,8 +33,9 @@ int main() {
         total += scores[i];
     }
 
-    // double average = total / numStudents;
+    double average = total / numStudents;
 
     cout << "high = " << highest << " ";
     cout << "low = " << lowest << " ";
+    cout << "Class average: " << average << " ";
 }
